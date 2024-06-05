@@ -1,5 +1,4 @@
-import { roboto } from '@/fonts/fonts'
-import { globalCss } from '.'
+import { globalCss } from '@medap-ui/react'
 
 export const globalStyles = globalCss({
   '*': {
@@ -12,7 +11,7 @@ export const globalStyles = globalCss({
   },
 
   'body, input, textarea, button': {
-    fontFamily: roboto.style.fontFamily,
-    fontWeight: 300,
+    fontFamily: '$default',
+    fontWeight: '$regular',
   },
 })
